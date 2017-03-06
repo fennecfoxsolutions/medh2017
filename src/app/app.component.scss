@@ -1,4 +1,36 @@
+@import "../styles.scss";
 
-h1 {
-    color: yellow;
+div.topo {
+    font-family: 'Lato', sans-serif;
+    background-color: $azul-escuro;
+    color: #FFF;
+    padding: 0.5em 0 0.5em 0;
 }
+
+nav {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+
+    ul.navbar-nav {
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 1.2em;
+
+        li {
+            margin-left: 0.5em;
+
+            a {
+                color: $cinza;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            a:focus, a:hover, a.active {
+                text-decoration: none;
+                background-color: $azul-claro;
+                color: #FFF;
+                border-radius: 1.2em;
+            }  
+        }                              
+    }
+}
+

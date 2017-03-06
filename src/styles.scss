@@ -2,9 +2,15 @@
 
 //Paleta de cores
 
-$azul-medh: #56A;
+$azul-escuro: #191f4c;
+$azul-claro: #00a7df;
+$cinza: #6f767a;
 
-body{
-    background-color: $azul-medh;
-    color: #FFF;
+//estilos padrão
+
+body{    
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFF;
+    color: $cinza;
+    font-size: 16px;
 }
