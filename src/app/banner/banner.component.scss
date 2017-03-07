@@ -1,0 +1,39 @@
+@import "../../styles.scss";
+
+.slides-medh {
+
+    .swiper-slide{
+        height: 600px;
+        padding-top: 6em;
+
+        .titulo-banner{
+            font-family: 'Raleway', sans-serif;
+            font-size: 28px;
+            font-weight: 900;
+            color: $azul-escuro;
+            text-transform: uppercase;
+            letter-spacing:-1px;
+        }
+
+        p {
+            font-family: 'Raleway', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color: $azul-escuro;
+        }
+
+        .linha-subtitulo-banner {
+            width: 40px;
+            height: 8px;
+            background-color: $azul-claro;
+            display: block;
+            margin-top: 30px;
+            margin-bottom: 0; 
+        }
+
+    }
+
+    .slide-manutencao {
+        background-image: url('../../assets/images/banner/banner-1.jpg');
+    }
+}
