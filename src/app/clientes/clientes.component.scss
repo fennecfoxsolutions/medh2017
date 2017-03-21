@@ -5,7 +5,7 @@
     text-align: center;
     background: #fff;
     height: 133px;
-    padding: 2em;
+    padding: 5px;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -19,9 +19,39 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center; 
+
+    img {
+        max-height: 100%;
+    }
   }
 
   #swiper-clientes.swiper-container .swiper-slide {
-  height: 180px;
-  padding: 0; 
+    height: 180px;
+    padding: 0; 
   }
+
+  #swiper-clientes {
+    div.botao-comando {
+      text-align: center;
+      min-height: 30px;
+      
+      div.swiper-button-prev, div.swiper-button-next{
+          position: relative;
+          display: inline-block;
+          margin-left: 15px;
+          margin-right: 15px;
+          background-color: #d5dee4;
+          padding: 25px;
+          background-size: 20px 30px;
+      }
+
+      div.swiper-button-next {
+          background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNyA0NCI+PHBhdGggZD0iTTI3LDIyTDI3LDIyTDUsNDRsLTIuMS0yLjFMMjIuOCwyMkwyLjksMi4xTDUsMEwyNywyMkwyNywyMnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=");
+      }
+
+      div.swiper-button-prev {
+          background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNyA0NCI+PHBhdGggZD0iTTAsMjJMMjIsMGwyLjEsMi4xTDQuMiwyMmwxOS45LDE5LjlMMjIsNDRMMCwyMkwwLDIyTDAsMjJ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+");
+      }
+    }
+  }
+

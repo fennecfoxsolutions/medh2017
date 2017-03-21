@@ -12,6 +12,8 @@ export class ClientesComponent {
 
   private config: SwiperConfigInterface = {
     scrollbar: null,
+    autoplay: 2000,
+    speed: 1200,    
     direction: 'horizontal',
     slidesPerView: 5,
     spaceBetween: 20,    
@@ -20,7 +22,6 @@ export class ClientesComponent {
     mousewheelControl: false,
     scrollbarDraggable: true,
     scrollbarSnapOnRelease: true,
-    pagination: '.swiper-pagination',
     paginationClickable: true,
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',      

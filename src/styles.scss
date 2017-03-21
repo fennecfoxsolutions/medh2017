@@ -232,3 +232,41 @@ form.form-medh{
 		float: none;
 	}
 }
+
+footer {
+	div.rodape-copyright {
+		background-color: #07091a;
+		padding: 6em 0 4em 0;
+		color: #aab6bc;
+		font-weight: 700;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	div.rodape-dev {
+		font-size: 13px;
+		padding: 1em 0 1em 0;
+		background-color: #05060d;
+		color: #aab6bc;
+		text-transform: uppercase;
+		font-weight: 600;		
+
+		p {
+			margin: 0;
+
+			span {
+				margin-left: 8px;
+				vertical-align: bottom;
+
+				a {
+					border: none;
+
+					img {
+						border: none;
+						display: inline-block;
+						max-width: 160px;
+					}
+				}				
+			}
+		}
+	}
+}
