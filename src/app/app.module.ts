@@ -6,6 +6,7 @@ import { SwiperConfigInterface, SwiperModule } from 'angular2-swiper-wrapper';
 
 import { AppComponent } from './app.component';
 import { BannerComponent } from './banner/banner.component';
+import { ClientesComponent } from './clientes/clientes.component';
 
 const SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -18,7 +19,8 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
 @NgModule({
   declarations: [
     AppComponent,
-    BannerComponent
+    BannerComponent,
+    ClientesComponent
   ],
   imports: [
     BrowserModule,
